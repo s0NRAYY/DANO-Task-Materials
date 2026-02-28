@@ -2,11 +2,11 @@
 
 > Материалы по статистическим методам для успешного прохождения задачного тура ДАНО
 
-[![GitHub Stars](https://img.shields.io/github/stars/lotossoks/DANO-Task-Materials?style=social)](https://github.com/lotossoks/DANO-Task-Materials/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/s0NRAYY/DANO-Task-Materials?style=social)](https://github.com/s0NRAYY/DANO-Task-Materials/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
-[![Maintained](https://img.shields.io/badge/Maintained-yes-green)](https://github.com/lotossoks/DANO-Task-Materials)
+[![Maintained](https://img.shields.io/badge/Maintained-yes-green)](https://github.com/s0NRAYY/DANO-Task-Materials)
 
 ---
 
@@ -14,11 +14,15 @@
 
 - [О репозитории](#о-репозитории)
 - [Как использовать](#как-использовать)
-- [Материалы](#материалы)
-  - [Статистические тесты](#-статистические-тесты)
-  - [Методы ресэмплинга](#-методы-ресэмплинга)
-  - [Тонкие моменты](#-тонкие-моменты)
-  - [Схема выбора метода](#-схема-выбора-метода)
+- [Материалы репозитория](#материалы-репозитория)
+  - [Статистические тесты](#статистические-тесты)
+  - [Методы ресэмплинга](#методы-ресэмплинга)
+  - [Тонкие моменты](#тонкие-моменты)
+  - [Схема выбора метода](#схема-выбора-метода)
+- [Официальные материалы ДАНО](#официальные-материалы-дано)
+  - [Задачи прошлых лет](#задачи-прошлых-лет)
+  - [Базы данных по сезонам](#базы-данных-по-сезонам)
+  - [Хакатоны](#хакатоны)
 - [Дополнительные ресурсы](#дополнительные-ресурсы)
 - [Полезные библиотеки](#полезные-библиотеки)
 
@@ -26,12 +30,13 @@
 
 ## О репозитории
 
-Этот репозиторий — практическое руководство по статистическим методам для задачного тура **ДАНО** (Дата-Анализ Научных Олимпиад). Здесь собраны:
+Этот репозиторий — практическое руководство по статистическим методам для задачного тура **ДАНО** (Национальная олимпиада по анализу данных). Здесь собраны:
 
 - теория с объяснениями "на пальцах"
 - готовый Python-код для каждого метода
 - типичные ошибки и как их избежать
 - схема выбора правильного теста
+- ссылки на все официальные материалы олимпиады
 
 > **Важно:** используйте методы только если понимаете, как они работают!
 
@@ -40,18 +45,18 @@
 ## Как использовать
 
 1. **До тура** — изучите материалы, разберите примеры кода
-2. **Во время тура** — [скопируйте репозиторий к себе](https://github.com/lotossoks/DANO-Task-Materials/archive/refs/heads/main.zip) и используйте как шпаргалку
+2. **Во время тура** — [скопируйте репозиторий к себе](https://github.com/s0NRAYY/DANO-Task-Materials/archive/refs/heads/main.zip) и используйте как шпаргалку
 3. **После тура** — разберите ошибки, дополните свои знания
 
 ```bash
-git clone https://github.com/lotossoks/DANO-Task-Materials.git
+git clone https://github.com/s0NRAYY/DANO-Task-Materials.git
 cd DANO-Task-Materials
 jupyter notebook
 ```
 
 ---
 
-## Материалы
+## Материалы репозитория
 
 ### Статистические тесты
 
@@ -119,15 +124,158 @@ jupyter notebook
 
 ---
 
+## Официальные материалы ДАНО
+
+Олимпиада проводится с 2021 года совместно НИУ ВШЭ и Т-Банком. Сейчас идёт 5-й сезон (2025-2026), более 19 000 участников.
+
+**Официальный сайт:** [dano.hse.ru](https://dano.hse.ru/)
+**Библиотека материалов:** [dano.hse.ru/library](https://dano.hse.ru/library)
+**Демо-задания:** [dano.hse.ru/demo](https://dano.hse.ru/demo)
+**Результаты всех сезонов:** [dano.hse.ru/result](https://dano.hse.ru/result)
+
+---
+
+### Задачи прошлых лет
+
+Все задания с решениями: [dano.hse.ru/library/past_tasks](https://dano.hse.ru/library/past_tasks)
+
+| Сезон | 1-й тур | 2-й тур | Финал: задачный | Финал: проектный |
+|-------|---------|---------|-----------------|-----------------|
+| **2025–2026** | 4 варианта + решения | 3 варианта + решения | Задание + решения | Задание, критерии, базы данных |
+| **2024–2025** | 3 варианта + решения | 3 варианта + решения | Задание + решения | Задание, критерии, базы данных |
+| **2023–2024** | 3 варианта | 3 варианта | Задание + критерии | 2 варианта + базы данных |
+| **2022–2023** | 3 варианта + решения | 3 варианта + решения | 4 варианта | Задание, критерии, базы данных |
+| **2021–2022** | 3 варианта | 3 варианта | Задания, критерии | Базы данных |
+
+---
+
+### Базы данных по сезонам
+
+<details>
+<summary>2024–2025 — 12 датасетов</summary>
+
+| Датасет | Источник |
+|---------|----------|
+| Отели и авиабилеты | Т-Банк |
+| Городские сервисы | Т-Банк |
+| Аренда самокатов | Т-Банк |
+| Данные звонков | Т-Банк |
+| Инвестиционные инструменты | Т-Банк |
+| Результаты национальных команд по футболу | Открытые данные |
+| Аналитика АПК | ЭкоНива |
+| Посещаемость беговых мероприятий | 5 вёрст |
+| Воронка онлайн-продаж | SM Lab (Спортмастер) |
+| Рынок труда (Урал, Сибирь, ДВ) | hh.ru |
+| Влияние COVID-19 на бизнес | Опрос |
+| Объявления о продаже животных | Avito |
+
+</details>
+
+<details>
+<summary>2023–2024 — 12 датасетов</summary>
+
+| Датасет | Источник |
+|---------|----------|
+| Игровой сервис | Т-Банк |
+| Повышенный кешбэк | Т-Банк |
+| Голосовые роботы и звонки | Т-Банк |
+| Премиальная подписка | Т-Банк |
+| Деятельность компаний | СПАРК |
+| Финансовое обследование домохозяйств | Банк России |
+| Туризм в регионах | Мостуризм |
+| Сделки с недвижимостью | Самолёт |
+| Взаимодействие с контентом | KION |
+| Рынок труда | hh.ru |
+| Сценарии пользователей | Tele2 |
+| Рынок труда в локдаун | Открытые данные |
+
+</details>
+
+<details>
+<summary>2022–2023 — 12 датасетов</summary>
+
+| Датасет | Источник |
+|---------|----------|
+| Доставка карт | Тинькофф |
+| Заказы билетов в кино | Тинькофф |
+| Программы кешбэка | Тинькофф |
+| Сторис | Тинькофф |
+| Юридические лица | Тинькофф |
+| Продажи авиабилетов | S7 Airlines |
+| Деловой климат | Открытые данные |
+| Мониторинг университетов | Открытые данные |
+| Региональная статистика | Открытые данные |
+| Качество образования | Открытые данные |
+| Здоровье и выход на пенсию | Открытые данные |
+| Отношение к иммиграции | Открытые данные |
+
+</details>
+
+---
+
+### Хакатоны
+
+Архив хакатонов: [dano.hse.ru/hackathon/archive](https://dano.hse.ru/hackathon/archive)
+
+На каждом хакатоне доступны: задание (PDF), датасет, критерии оценки, презентации команд, результаты.
+
+<details>
+<summary>2025 год</summary>
+
+| Хакатон | Дата | Ссылка |
+|---------|------|--------|
+| Москва (РЭШ) | 15–16 марта | [hackathon_msk_2025](https://dano.hse.ru/hackathon_msk_2025) |
+| Санкт-Петербург (ИТМО) | 5–6 апреля | [hackathon_spb_2025](https://dano.hse.ru/hackathon_spb_2025) |
+| Майкоп (АГУ) | Май | [hackathon/task-may](https://dano.hse.ru/hackathon/task-may) |
+| Екатеринбург | 6–7 сентября | [hackathon/2025/ekb-autumn](https://dano.hse.ru/hackathon/2025/ekb-autumn) |
+| Пермь | 13–14 сентября | — |
+| Санкт-Петербург | 21–22 сентября | — |
+| Майкоп | 27–28 сентября | — |
+| Нижний Новгород | 11–12 октября | — |
+
+</details>
+
+<details>
+<summary>2024 год</summary>
+
+| Хакатон | Дата | Ссылка |
+|---------|------|--------|
+| Москва (НЭШ) | 16–17 марта | [hackathon_nes_2024](https://dano.hse.ru/hackathon_nes_2024) |
+| Пермь | 23–24 марта | — |
+| Иннополис | 27–28 апреля | [hackathon_innopolis_2024](https://dano.hse.ru/hackathon_innopolis_2024) |
+| Санкт-Петербург (ИТМО) | 18–19 мая | [hackathon_itmo_2024](https://dano.hse.ru/hackathon_itmo_2024) |
+| Пермь | 24–25 августа | — |
+| Екатеринбург | 7–8 сентября | — |
+| Майкоп | 14–15 сентября | — |
+| Нижний Новгород | 21–22 сентября | [hackathon_nn_2024](https://dano.hse.ru/hackathon_nn_2024) |
+| Санкт-Петербург | 28–29 сентября | — |
+
+</details>
+
+<details>
+<summary>2023 год</summary>
+
+| Хакатон | Дата | Ссылка |
+|---------|------|--------|
+| Санкт-Петербург (ИТМО) | 27–28 мая | [itmo2023](https://dano.hse.ru/itmo2023) |
+| Екатеринбург | 9–10 сентября | [hackathon_ekb_2023](https://dano.hse.ru/hackathon_ekb_2023) |
+| Майкоп | 16–17 сентября | [hackathon_may_2023](https://dano.hse.ru/hackathon_may_2023) |
+| Санкт-Петербург | 23–24 сентября | [hackathon_spb_2023](https://dano.hse.ru/hackathon_spb_2023) |
+| Нижний Новгород | 30 сент. – 1 окт. | [hackathon_niz_2023](https://dano.hse.ru/hackathon_niz_2023) |
+
+</details>
+
+---
+
 ## Дополнительные ресурсы
 
 ### Курсы
 
-| Ресурс | Описание |
-|--------|----------|
-| [Основы статистики](https://stepik.org/course/76/syllabus) | Базовый курс на Stepik |
-| [Основы статистики. Часть 2](https://stepik.org/course/524/syllabus) | Продолжение курса |
-| [Основы статистики. Часть 3](https://stepik.org/course/2152/syllabus) | Углублённые темы |
+| Ресурс | Уровень | Описание |
+|--------|---------|----------|
+| [Основы статистики](https://stepik.org/course/76/syllabus) | Начальный | Базовые понятия: выборки, распределения, тесты |
+| [Основы статистики. Часть 2](https://stepik.org/course/524/syllabus) | Средний | Дисперсионный анализ, корреляция |
+| [Основы статистики. Часть 3](https://stepik.org/course/2152/syllabus) | Продвинутый | Регрессия, байесовский подход |
 
 ### Книги и задачи
 
@@ -135,15 +283,38 @@ jupyter notebook
 |--------|----------|
 | [Статистика и котики — Савельев](https://natmedlib.uz/fm/?sitemap/file/-h5LaEfQ&view=Коллекция%20книг%20для%20студентов%20%28ru%2C%20en%29/Савельев.%20Статистика%20и%20котики.%202017.pdf) | Доступно о статистике с примерами |
 | [Задачи на дискретные случайные величины](http://mathprofi.ru/files/zadachi_dsv.pdf) | Сборник задач на распределения |
+| [Mathprofi — теория вероятностей](http://mathprofi.ru/teoriya_veroyatnostej.html) | Теория вероятностей |
+| [Mathprofi — математическая статистика](http://mathprofi.ru/matematicheskaya_statistika.html) | Математическая статистика |
 
 ### Документация библиотек
 
-| Библиотека | Ссылка |
-|------------|--------|
-| SciPy Stats | [docs.scipy.org/doc/scipy/reference/stats.html](https://docs.scipy.org/doc/scipy/reference/stats.html) |
-| Statsmodels | [statsmodels.org/stable/](https://www.statsmodels.org/stable/) |
-| Pingouin | [pingouin-stats.org](https://pingouin-stats.org/) — удобная альтернатива для статтестов |
-| Scikit-learn | [scikit-learn.org](https://scikit-learn.org/stable/) |
+| Библиотека | Ссылка | Когда использовать |
+|------------|--------|--------------------|
+| SciPy Stats | [docs.scipy.org](https://docs.scipy.org/doc/scipy/reference/stats.html) | Основные статтесты |
+| Statsmodels | [statsmodels.org](https://www.statsmodels.org/stable/) | Регрессия, ANOVA, поправки |
+| Pingouin | [pingouin-stats.org](https://pingouin-stats.org/) | Удобная альтернатива с богатым выводом |
+| Scikit-learn | [scikit-learn.org](https://scikit-learn.org/stable/) | ML-модели |
+
+### Социальные сети
+
+| Канал | Описание |
+|-------|----------|
+| [Telegram @dano_hse](https://t.me/dano_hse) | Официальный канал: объявления, разборы задач, тренировочные задания |
+| [VK dano_olymp](https://vk.com/dano_olymp) | Официальная группа ВКонтакте |
+
+### Полезные сторонние ресурсы
+
+| Ресурс | Описание |
+|--------|----------|
+| [statstest.com](https://www.statstest.com/) | Интерактивный выбор статистического теста |
+| [olimpiada.ru — ДАНО](https://olimpiada.ru/activity/5815) | Расписание этапов и новости |
+| [postupi.online — ДАНО](https://msk.postupi.online/olimpiada/olimpiada-analiz-dannih-dano/otvety/) | Сторонние разборы заданий |
+
+### GitHub-репозитории участников
+
+| Репозиторий | Описание |
+|-------------|----------|
+| [D1ffic00lt/dano-olympiad-final-stage](https://github.com/D1ffic00lt/dano-olympiad-final-stage) | Проект команды «ПобеDano» с финала 2022–2023: кластеризация юридических лиц Tinkoff (K-Means, t-SNE) |
 
 ---
 
@@ -170,4 +341,4 @@ pip install pandas numpy scipy statsmodels scikit-learn pingouin matplotlib seab
 
 ---
 
-*Нашли ошибку или хотите дополнить? Создайте [issue](https://github.com/lotossoks/DANO-Task-Materials/issues) или [pull request](https://github.com/lotossoks/DANO-Task-Materials/pulls).*
+*Нашли ошибку или хотите дополнить? Создайте [issue](https://github.com/s0NRAYY/DANO-Task-Materials/issues) или [pull request](https://github.com/s0NRAYY/DANO-Task-Materials/pulls).*

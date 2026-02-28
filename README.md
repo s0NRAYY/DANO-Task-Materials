@@ -2,7 +2,6 @@
 
 > Материалы по статистическим методам для успешного прохождения задачного тура ДАНО
 
-[![GitHub Stars](https://img.shields.io/github/stars/s0NRAYY/DANO-Task-Materials?style=social)](https://github.com/s0NRAYY/DANO-Task-Materials/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
